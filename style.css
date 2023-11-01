@@ -1,0 +1,49 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.clockContainer{
+    /* border: 2px solid black; */
+    height: 40vw;
+    width:40vw;
+    margin: auto;
+    background-image: url(images/clockred-removebg-preview.png);
+    background-size: 100%;
+   position: relative;
+   background-repeat: no-repeat;
+  
+}
+#hours,#minutes,#seconds{
+    position: absolute;
+    border-radius: 10px;
+}
+#hours{
+background: rgb(7, 7, 7);
+height: 12%;
+width: 4px;
+left: 48.60%;
+top: 43%;
+transform-origin: bottom; 
+ }
+#minutes{
+    background: rgb(2, 2, 2);
+    height: 16%;
+width: 4px;
+left: 48.60%;
+top: 39%;
+transform-origin: bottom;
+
+}
+ #seconds{ 
+    background: rgb(0, 0, 0);
+    height: 17%;
+    width: 4px;
+    left: 48.60%;
+    top: 38%;
+    transform-origin: bottom;
+}
